@@ -103,10 +103,10 @@ public class AtlasLoginScreen extends Activity {
         inProgress = true;
 
         ParseUser parseUser = new ParseUser();
-        parseUser.setEmail("anirudha.sharma@gmail.com");
-        parseUser.setPassword("tractor");
+        parseUser.setEmail("abc@xyz.com");
+        parseUser.setPassword("abcdef");
         parseUser.setUsername(userName);
-        parseUser.setObjectId("anirudha.sharma@gmail.com");
+
         layerClient.registerAuthenticationListener(new LayerAuthenticationListener() {
             public void onAuthenticationChallenge(final LayerClient client, final String nonce) {
                 if (debug) Log.w(TAG, "onAuthenticationChallenge() nonce: " + nonce);
