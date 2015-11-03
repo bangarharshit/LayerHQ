@@ -1,0 +1,13 @@
+.gradle
+/local.properties
+/.idea
+/.idea/workspace.xml
+/.idea/libraries
+.DS_Store
+/build
+layer-atlas-messenger/src/main/bin
+layer-atlas-messenger/build
+layer-atlas/src/main/bin
+layer-atlas/build
+*.apk
+*.iml
